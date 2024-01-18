@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Manta5 PC APP.exe" version="1.0.0.5" publicKeyToken="93b97317eee4b7dd" language="en" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="2022_M5_logo_shortedIcon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Manta5 PC APP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Manta5 PC APP.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Manta5 PC APP.exe" size="1707952">
+      <assemblyIdentity name="Manta5 PC APP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>j2opjkQ4q7+CF9FV1O5o/AKfbZwt0XfTwqGipBq/sP8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="2022_M5_logo_shortedIcon.ico" size="204862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VXDZv1fHv6ZPM5YbnSuWOATGo+GLHT+7viAnA29fjng=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Manta5 PC APP.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eSEJjkfolEEv39DK/g+IzGhJd0CZjqwXxowAEpBp2AM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\binFiles\Display-A000753-V032[S].bin" size="30211">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>szLtOmY7B+NjsedQ2zj2hSAPuFJqf7ILmKHWHp0Y0sg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\binFiles\Display-B006370D-V105.bin" size="8301">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jpJWosjmIPAiXxArJ5CCeNZN+GFS+HnYoct9ixxKFUI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\binFiles\ECS-A000764-V073[S].bin" size="39154">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zVTM+8TUWO5QC89GbaHObtfGvLmFp6wo/jJ+/n0pG3o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\binFiles\ECS-B006370B-V105.bin" size="7174">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ttyVQg7BboiujkvGUhAhXWP3S06Ocjwrd2/M7Gk0etw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=AzureAD\HaoXu" issuerKeyHash="cd7e6e9333ee8cb6b164edf44dddbf20e4434233" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RZsUm3am4R2lXZh1ZXawRdUU9dOEcYm0947Uak0udXg=</DigestValue></Reference></SignedInfo><SignatureValue>B1Bi7JeLFLRNWSrbZwvkrSZmOVUW7HaiXszznd9I1eHSjz9+oFsCzbJNGNF7I4qkPIOUHuonFcTg4cHRSClLfiv0CmMF8IOay28PPHpszSEqD2nLh0Sj7C/gDd4iHUQnMCGCY/LAyVBNs9/IJPJYj6sJ2QRAC3WS0+PGrvAH3/g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nP6t4wcP2TrWVLsFQRyjG4VQKsPSLUnL8337D88ZMsnyO3fZz1CyXpF4NmfvSMXrqC0pfI5+CXsOK5Ul+wEeJL8ri3+Syk46NPTCCTihUYyYHWPK5bi2+TtCA/lJuImdl5jsQ/zrBKDQSc19trPLAS0mwJ65qya6G0FK7k1Ppik=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="78752e4d6ad48ef7b4897184d3f514d545b0766575985da51de1a6769b149b45" Description="" Url=""><as:assemblyIdentity name="Manta5 PC APP.exe" version="1.0.0.5" publicKeyToken="93b97317eee4b7dd" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AzureAD\HaoXu</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>12NMhlTPfxMdFQmY4jXQzAJS+8lI25R5tiTzDNhBCbY=</DigestValue></Reference></SignedInfo><SignatureValue>Ha37dV5HqQIvo6DEzHxRN6BgBm3TfDE/unTdRxHQGPzdZp697WxFQXF11MDMhHeWUPHyWc/Ssd9kCM0f6B1gow64RJINz2ApuiQnQUy5WD4N5Vd1807ta5furBNacNTEWRyPdWRm76ZwydtQ/3EBeM+hqOLc8q6+13T9r7gJc20=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nP6t4wcP2TrWVLsFQRyjG4VQKsPSLUnL8337D88ZMsnyO3fZz1CyXpF4NmfvSMXrqC0pfI5+CXsOK5Ul+wEeJL8ri3+Syk46NPTCCTihUYyYHWPK5bi2+TtCA/lJuImdl5jsQ/zrBKDQSc19trPLAS0mwJ65qya6G0FK7k1Ppik=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQGaQXf1vz/otIktwb5T1PaTANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAQQB6AHUAcgBlAEEARABcAEgAYQBvAFgAdTAeFw0yMzExMjAyMzI0MTlaFw0yNDExMjAwNTI0MTlaMCUxIzAhBgNVBAMeGgBBAHoAdQByAGUAQQBEAFwASABhAG8AWAB1MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCc/q3jBw/ZOtZUuwVBHKMbhVAqw9ItScvzffsPzxkyyfI7d9nPULJekXg2Z+9IxeuoLSl8jn4Jew4rlSX7AR4kvyuLf5LKTjo09MIJOKFRjJgdY8rluLb5O0ID+Um4iZ2XmOxD/OsEoNBJzX22s8sBLSbAnrmrJrobQUruTU+mKQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJO5/cYOqNxsprzam+Ox0ST+U6rU/eMveNngwldMGgD32ZqIaobNajMDvc7gjQ2oB895dQKzqFqnaQiF3NGeGfJrHBehHXUXiVisr5sIrZy5laQj6sbHgqBIf7/1avIMBfxaSoW1aXESf1zrNU7njfaCROMuBoKrk+vysk9ZxuYP</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
